@@ -3,7 +3,7 @@
     .container {
         margin: 0 auto;
         width: 100%;
-        max-width: 90% !important;
+        max-width: 95% !important;
     }
 
     .vision-and-mistion-contant-and-video-sec-main {
@@ -32,6 +32,108 @@
 
     .blog-section-hmpg-card {
         width: calc(33% - 10px);
+    }
+
+    .comapny-management-team-image {
+        width: 100%;
+        height: 428px;
+    }
+
+    .comapny-management-team-image img {
+        object-fit: cover;
+    }
+
+    .vsn-msn-ttl-and-pera h4 {
+        font-size: 32px;
+        margin-bottom: 6px;
+    }
+
+    .product-tital-main h2 {
+        font-size: 46px;
+    }
+
+    .vsn-msn-ttl-and-pera p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .salwa-programe-peragraph-main p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .devlopment-stages-sec-box-tital-and-para h5 {
+        font-size: 36px;
+    }
+
+    .devlopment-stages-sec-box-tital-and-para p {
+        font-size: 24px;
+    }
+
+    .footer-contant-social-main-box p,
+    .footer-contant-social-main-box a {
+        font-size: 20px;
+    }
+
+    .footer-contant-help-csmr-srvs-boxsec-main p,
+    .footer-contant-help-csmr-srvs-boxsec-main p a,
+    .footer-contant-help-csmr-srvs-boxsec-main p span {
+        font-size: 20px;
+    }
+
+    .staff-text-main h4 {
+        font-size: 32px;
+    }
+
+    .chief-exzecutive-oficer-section-box-main .staff-text-main h4 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .definition-section-box-main .product-tital-main {
+        margin-bottom: 22px;
+    }
+
+    .definition-section-box-main .product-tital-main h2,
+    .company-management-section-main .product-tital-main h2,
+    .company-owners-founder-details-section-box .product-tital-main h2 {
+        font-size: 36px;
+    }
+
+    .chief-exzecutive-oficer-section-box-main .staff-text-main {
+        margin-bottom: 16px;
+    }
+
+    .definition-section-box-inside-main p {
+        font-size: 20px;
+    }
+
+    .company-owners-right-side-contant .product-tital-main {
+        margin-bottom: 18px;
+    }
+
+    .company-owners-right-side-contant .product-tital-main h2 {
+        font-size: 40px;
+    }
+
+    .company-owners-founder-row-section {
+        margin: 65px 0px 40px;
+    }
+
+    .company-management-team-details-box-main {
+        align-items: unset;
+    }
+
+    .company-management-team-card-box-main h2 {
+        font-size: 30px;
+        line-height: 32px;
+        margin-bottom: 28px;
+    }
+
+    .company-mngmnt-card-body h3 {
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 8px;
     }
 
 }
@@ -73,6 +175,7 @@
 
     .vsn-msn-ttl-and-pera h4 {
         font-size: 32px;
+        margin-bottom: 10px;
     }
 
     .vsn-msn-ttl-and-pera p,
@@ -90,7 +193,7 @@
     }
 
     .product-tital-main h2 {
-        font-size: 48px;
+        font-size: 42px;
     }
 
     .product-section-inside-main {
@@ -242,6 +345,67 @@
     }
 
     /* ==== about page end ==== */
+
+    .definition-section-box-main .product-tital-main {
+        margin-bottom: 22px;
+    }
+
+    .definition-section-box-main .product-tital-main h2,
+    .company-management-section-main .product-tital-main h2,
+    .company-owners-founder-details-section-box .product-tital-main h2 {
+        font-size: 36px;
+    }
+
+    .chief-exzecutive-oficer-section-box-main .staff-text-main {
+        margin-bottom: 16px;
+    }
+
+    .definition-section-box-inside-main p {
+        font-size: 20px;
+    }
+
+    .company-owners-right-side-contant .product-tital-main {
+        margin-bottom: 18px;
+    }
+
+    .company-owners-right-side-contant .product-tital-main h2 {
+        font-size: 32px;
+    }
+
+    .company-owners-founder-row-section {
+        margin: 65px 0px 40px;
+    }
+
+    .company-management-team-details-box-main {
+        align-items: unset;
+    }
+
+    .company-management-team-card-box-main h2 {
+        font-size: 30px;
+        line-height: 32px;
+        margin-bottom: 28px;
+    }
+
+    .company-mngmnt-card-body h3 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 8px;
+    }
+
+    .chief-exzecutive-oficer-section-box-main .staff-text-main h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .company-mngmnt-card-body p {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .company-mngmnt-dr-social-box a {
+        width: 32px;
+        height: 32px;
+    }
 
 }
 
@@ -525,8 +689,13 @@
 
     /* ==== about page start ==== */
 
+    .definition-section-box-inside-main {
+        gap: 12px;
+    }
+
     .definition-section-box-inside-main p {
-        font-size: 22px;
+        font-size: 20px;
+        line-height: 28px;
     }
 
     .company-owners-founder-row-section {
@@ -571,6 +740,20 @@
 
     .company-owners-dr-box-one img {
         border-radius: 34px;
+    }
+
+    .chief-exzecutive-oficer-section-box-main .product-tital-main h2,
+    .definition-section-box-main .product-tital-main h2 {
+        font-size: 32px;
+    }
+
+    .chief-exzecutive-oficer-section-box-main .staff-text-main h4 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .chief-exzecutive-oficer-section-box-main .staff-text-main {
+        margin-bottom: 16px;
     }
 
     /* ==== about page end ==== */
@@ -1416,7 +1599,7 @@
     }
 
     .staff-text-main h4 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .vision-and-mistion-contant-and-video-sec-main {
@@ -1453,7 +1636,7 @@
 
     .product-tital-main h2,
     .devlopment-stages-sec-box-tital-and-para h5 {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     .product-section-inside-main {
@@ -1568,6 +1751,14 @@
 
     .footer-left-image img.mb-line {
         display: block;
+        height: 100px;
+        object-fit: cover;
+    }
+
+    .golder-design-row-img img {
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
     }
 
     .footer-left-image {
@@ -1639,14 +1830,18 @@
     }
 
     .devlopment-stages-sec-box-tital-and-para p {
-        font-size: 30px;
-        line-height: 34px;
+        font-size: 22px;
+        line-height: 28px;
     }
 
     .footer-contant-help-csmr-srvs-box-main {
         flex-direction: column;
         align-items: center;
         gap: 20px;
+    }
+
+    .devlopment-stages-sec-box-tital-and-para h5 {
+        margin-bottom: 6px;
     }
 
     .footer-company-ruls-sec-main {
@@ -1659,7 +1854,7 @@
     }
 
     .company-profile-section-main-box-card h5 {
-        font-size: 30px;
+        font-size: 26px;
         margin-bottom: 0px;
     }
 
@@ -1907,6 +2102,29 @@
         height: 32px;
     }
 
+    .our-partners-section-logo-all-partnrs {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+        align-items: center;
+    }
+
+    .our-partners-section-logo-all-partnrs>* {
+        width: 80px !important;
+    }
+
+    .company-profile-section-main-box-card p {
+        font-size: 18px;
+    }
+
+    .devlopment-teams-learn-more-button a {
+        font-size: 18px;
+        padding: 10px 36px;
+    }
+
     /* ==== about page end ==== */
 
 }
@@ -2031,6 +2249,35 @@
         height: 420px;
     }
 
+    .vsn-msn-ttl-and-pera h4 {
+        font-size: 24px;
+    }
+
+    .to-learn-more-btn a {
+        font-size: 22px;
+    }
+
+    .health-bridge-contant-box-left h4 {
+        font-size: 28px;
+    }
+
+    .health-bridge-contant-box-left h5 {
+        font-size: 28px;
+    }
+
+    .health-bridge-contant-box-left p {
+        font-size: 18px;
+    }
+
+    .health-bridge-partners-section-inside-main {
+        padding: 40px;
+    }
+
+    .blog-section-card-body p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
     /* ==== about page end ==== */
 
 }
@@ -2074,7 +2321,7 @@
     }
 
     .vsn-msn-ttl-and-pera h4 {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .vsn-msn-ttl-and-pera p,
@@ -2094,12 +2341,14 @@
     }
 
     .to-learn-more-btn a {
-        font-size: 24px;
+        font-size: 18px;
         padding: 10px;
     }
 
     .to-learn-more-btn {
+        margin: auto;
         margin-top: 24px;
+        width: 170px;
     }
 
     .vision-mision-goals-section-main,
@@ -2215,6 +2464,53 @@
 
     .company-owners-dr-box-one img {
         box-shadow: -8px -8px 0px #CCAD7E;
+    }
+
+    .vsn-msn-ttl-and-pera p {
+        line-height: 22px;
+    }
+
+    .product-section-logo-and-button img {
+        width: 140px;
+    }
+
+    .product-tital-main {
+        margin: auto auto 20px;
+    }
+
+    .product-tital-main h2,
+    .devlopment-stages-sec-box-tital-and-para h5 {
+        font-size: 24px;
+    }
+
+    .devlopment-stages-sec-box-tital-and-para p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .devlopment-teams-learn-more-button a {
+        font-size: 18px;
+    }
+
+    .salwa-programe-peragraph-main p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .footer-contant-social-main-box p,
+    .footer-contant-social-main-box a,
+    .footer-contant-help-csmr-srvs-boxsec-main p,
+    .footer-contant-help-csmr-srvs-boxsec-main p span,
+    .footer-contant-help-csmr-srvs-boxsec-main p a {
+        font-size: 18px;
+    }
+
+    .footer-contant-help-csmr-srvs-boxsec-main p {
+        line-height: 28px;
+    }
+
+    .footer-copy-right-pera-main p {
+        font-size: 20px;
     }
 
     /* ==== about page end ==== */
