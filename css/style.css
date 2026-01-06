@@ -96,6 +96,7 @@
     font-display: swap;
 }
 
+
 @font-face {
     font-family: 'Poppins bold';
     src: url('fonts/Poppins-Bold.woff') format('woff'),
@@ -1094,11 +1095,12 @@ body {
 .company-profile-box-main {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
 }
 
 .company-profile-section-main-box-card {
+    width: 100%;
     border: 2pt dashed #BD9A5F;
     border-radius: 30px;
     padding: 24px 30px;
@@ -1211,7 +1213,8 @@ body {
     font-family: 'Tajawal medium';
 }
 
-.footer-company-ruls-sec-main a:hover {
+.footer-company-ruls-sec-main a:hover,
+.footer-company-ruls-sec-main a.active {
     color: #BD9A5F;
 }
 
@@ -1607,40 +1610,43 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-around;
     position: relative;
+    padding: 40px 0px;
 }
 
 .stages-of-devlopment-card-box-image {
-    width: 50%;
-    border: 2px solid #00A887;
+    width: 40%;
+    height: 368px;
+    border: 3px solid #00A887;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 28px;
     padding: 28px;
-    margin: 42px;
+    position: relative;
 }
 
 .stages-of-devlopment-card-box-contant {
-    width: 50%;
-    margin: 42px;
+    width: 40%;
 }
 
-.stages-of-devlopment-card-box-image.salwa-logo img {
-    width: 304px;
+.stages-of-devlopment-card-box-image img {
+    width: 100%;
+    height: 100%;
 }
 
 .stages-of-devlopment-card-box-contant h5 {
     color: black;
     font-size: 30px;
     font-family: 'Tajawal bold';
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
 
 .stages-of-devlopment-card-box-contant p {
     color: black;
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 24px;
+    line-height: 28px;
     font-family: 'Tajawal rg';
 }
 
@@ -1655,4 +1661,184 @@ body {
     margin: auto;
 }
 
+.stages-of-devlopment-card-one::after {
+    position: absolute;
+    content: "";
+    width: 46px;
+    height: 46px;
+    background-image: url(../images/devlpomnt-circle.svg);
+    background-color: white;
+    background-repeat: no-repeat;
+    left: 8px;
+    right: 0px;
+    top: 0px;
+    bottom: 0;
+    margin: auto;
+}
+
+.stages-of-devlopment-card-box-image::before {
+    position: absolute;
+    content: "";
+    width: 32px;
+    height: 32px;
+    border: 3px solid #00A887;
+    background-color: white;
+    right: -18px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotate(45deg);
+    border-left: unset;
+    border-bottom: unset;
+}
+
+.stages-of-devlopment-card-box-image.left-arrow::before {
+    position: absolute;
+    content: "";
+    width: 32px;
+    height: 32px;
+    border: 3px solid #00A887;
+    background-color: #00A887;
+    right: unset;
+    left: -18px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotate(224deg);
+    border-left: unset;
+    border-bottom: unset;
+}
+
+.stages-of-devlopment-card-box-image.bg-gren {
+    background-color: #00A887;
+}
+
+.stages-of-devlopment-card-box-image.bg-gren::before {
+    background-color: #00A887;
+    z-index: -1;
+}
+
+.stages-of-devlopment-card-box-image.rcystm-img {
+    padding: 0px;
+}
+
+.stages-of-devlopment-card-box-image.rcystm-img img {
+    width: 100%;
+    border-radius: 26px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.stages-of-devlopment-card-one.last-progress {
+    padding-bottom: 0px;
+}
+
+.stages-of-devlopment-card-one.last-progress::before {
+    height: 58%;
+    top: 0;
+}
+
+.stages-of-devlopment-card-one.last-progress::after {
+    top: 36px;
+}
+
 /* ==== stages of devlopment page end ==== */
+
+/* ==== targeted Sectore start ==== */
+
+.targeted-sectiors-bnr {
+    position: relative;
+    padding-top: unset !important;
+}
+
+.targeted-sectore-banner-contant {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-color: #bd9a5f54;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.targeted-sectore-banner-contant h1 {
+    font-family: 'Poppins bold';
+    font-size: 60px;
+    color: #f2ebdf;
+}
+
+.hospital-targeted-section {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.hospital-targeted-section .container {
+    max-width: 1800px;
+}
+
+.hospitals-card-box-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px 0px;
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.hospital-tital-and-pera {
+    width: 100%;
+}
+
+.hospital-tital-and-pera h3 {
+    font-family: 'Poppins bold';
+    font-size: 36px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.hospital-tital-and-pera p {
+    font-size: 22px;
+    font-family: 'Poppins rg';
+    color: black;
+}
+
+.hospital-building-image {
+    width: 600px;
+    min-width: 600px;
+    height: auto;
+}
+
+.hospital-building-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+/* ==== targeted Sectore end ==== */
+
+/* ==== media center page start ==== */
+
+.media-center-page-one-bnr {
+    padding-top: 0px !important;
+}
+
+.media-cetner-page-box-main {
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.media-cetner-page-box-main .container {
+    max-width: 1760px;
+}
+
+.media-cetner-page-box-inside-main {
+    width: 100%;
+}
+
+/* ==== media center page end ==== */

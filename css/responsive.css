@@ -136,6 +136,20 @@
         margin-bottom: 8px;
     }
 
+    .stages-og-devlopment-page-hero-section-main h4 {
+        font-size: 42px;
+    }
+
+    .hospital-tital-and-pera h3 {
+        font-size: 30px;
+        margin-bottom: 6px;
+    }
+
+    .hospital-tital-and-pera p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
 }
 
 @media screen and (min-width:1241px) and (max-width:1500px) {
@@ -407,6 +421,66 @@
         height: 32px;
     }
 
+    /* ===== stages of devlopment start ==== */
+
+    .stages-of-devlopment-card-one {
+        justify-content: space-between;
+    }
+
+    .stages-of-devlopment-card-box-contant,
+    .stages-of-devlopment-card-box-image {
+        width: 44%;
+    }
+
+    .stages-of-devlopment-card-box-image {
+        height: 300px;
+    }
+
+    .stages-of-devlopment-card-one::after {
+        width: 40px;
+        height: 40px;
+    }
+
+    .stages-of-devlopment-card-box-contant h5 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .stages-of-devlopment-card-box-contant p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .stages-og-devlopment-page-hero-section-main h4 {
+        font-size: 36px;
+    }
+
+    /* ===== stages of devlopment end ==== */
+
+    /* ==== targeted sectors start ==== */
+
+    .hospital-building-image {
+        width: 460px;
+        min-width: 460px;
+        height: auto;
+    }
+
+    .hospital-tital-and-pera h3 {
+        font-size: 28px;
+        margin-bottom: 6px;
+    }
+
+    .hospital-tital-and-pera p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .targeted-sectore-banner-contant h1 {
+        font-size: 50px;
+    }
+
+    /* ==== targeted sectors end ==== */
+
 }
 
 @media screen and (min-width:1025px) and (max-width:1240px) {
@@ -677,7 +751,8 @@
     .our-partners-section-start-main,
     .definition-section-box-main,
     .company-owners-founder-details-section-box,
-    .company-management-section-main {
+    .company-management-section-main,
+    .devlopment-stages-section-start-main {
         padding: 40px 0px;
     }
 
@@ -757,6 +832,66 @@
     }
 
     /* ==== about page end ==== */
+
+    /* ===== stages of devlopment start ==== */
+
+    .stages-of-devlopment-card-one {
+        justify-content: space-between;
+    }
+
+    .stages-of-devlopment-card-box-contant,
+    .stages-of-devlopment-card-box-image {
+        width: 44%;
+    }
+
+    .stages-of-devlopment-card-box-image {
+        height: 265px;
+    }
+
+    .stages-of-devlopment-card-one::after {
+        width: 40px;
+        height: 40px;
+    }
+
+    .stages-of-devlopment-card-box-contant h5 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .stages-of-devlopment-card-box-contant p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .stages-og-devlopment-page-hero-section-main h4 {
+        font-size: 36px;
+    }
+
+    /* ===== stages of devlopment end ==== */
+
+    /* ==== targeted sectors start ==== */
+
+    .hospital-building-image {
+        width: 360px;
+        min-width: 360px;
+        height: auto;
+    }
+
+    .hospital-tital-and-pera h3 {
+        font-size: 26px;
+        margin-bottom: 6px;
+    }
+
+    .hospital-tital-and-pera p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .targeted-sectore-banner-contant h1 {
+        font-size: 42px;
+    }
+
+    /* ==== targeted sectors end ==== */
 
 }
 
@@ -1028,7 +1163,9 @@
     .our-partners-section-start-main,
     .definition-section-box-main,
     .company-owners-founder-details-section-box,
-    .company-management-section-main {
+    .company-management-section-main,
+    .stages-og-devlopment-page-hero-section-main,
+    .devlopment-stages-section-start-main {
         padding: 40px 0px;
     }
 
@@ -1094,6 +1231,66 @@
     }
 
     /* ==== about page end ==== */
+
+    /* ===== stages of devlopment start ==== */
+
+    .stages-of-devlopment-card-one {
+        justify-content: space-between;
+    }
+
+    .stages-of-devlopment-card-box-contant,
+    .stages-of-devlopment-card-box-image {
+        width: 44%;
+    }
+
+    .stages-of-devlopment-card-box-image {
+        height: 255px;
+    }
+
+    .stages-of-devlopment-card-one::after {
+        width: 34px;
+        height: 34px;
+    }
+
+    .stages-of-devlopment-card-box-contant h5 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .stages-of-devlopment-card-box-contant p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .stages-og-devlopment-page-hero-section-main h4 {
+        font-size: 36px;
+    }
+
+    /* ===== stages of devlopment end ==== */
+
+    /* ==== targeted sectors start ==== */
+
+    .hospital-building-image {
+        width: 330px;
+        min-width: 330px;
+        height: auto;
+    }
+
+    .hospital-tital-and-pera h3 {
+        font-size: 22px;
+        margin-bottom: 4px;
+    }
+
+    .hospital-tital-and-pera p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .targeted-sectore-banner-contant h1 {
+        font-size: 42px;
+    }
+
+    /* ==== targeted sectors end ==== */
 
 }
 
@@ -1368,7 +1565,9 @@
     .our-partners-section-start-main,
     .definition-section-box-main,
     .company-owners-founder-details-section-box,
-    .company-management-section-main {
+    .company-management-section-main,
+    .stages-og-devlopment-page-hero-section-main,
+    .devlopment-stages-section-start-main {
         padding: 40px 0px;
     }
 
@@ -1567,7 +1766,8 @@
     }
 
     .company-owwner-image-box-left {
-        width: 100%;
+        width: 50%;
+        margin: auto;
     }
 
     .company-owners-dr-box-one {
@@ -1575,6 +1775,66 @@
     }
 
     /* ==== about page end ==== */
+
+    /* ===== stages of devlopment start ==== */
+
+    .stages-of-devlopment-card-one {
+        justify-content: space-between;
+    }
+
+    .stages-of-devlopment-card-box-contant,
+    .stages-of-devlopment-card-box-image {
+        width: 42%;
+    }
+
+    .stages-of-devlopment-card-box-image {
+        height: 300px;
+    }
+
+    .stages-of-devlopment-card-one::after {
+        width: 34px;
+        height: 34px;
+    }
+
+    .stages-of-devlopment-card-box-contant h5 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .stages-of-devlopment-card-box-contant p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .stages-og-devlopment-page-hero-section-main h4 {
+        font-size: 32px;
+    }
+
+    /* ===== stages of devlopment end ==== */
+
+    /* ==== targeted sectors start ==== */
+
+    .hospital-building-image {
+        width: 290px;
+        min-width: 290px;
+        height: auto;
+    }
+
+    .hospital-tital-and-pera h3 {
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+
+    .hospital-tital-and-pera p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .targeted-sectore-banner-contant h1 {
+        font-size: 36px;
+    }
+
+    /* ==== targeted sectors end ==== */
 
 }
 
@@ -1866,7 +2126,9 @@
     .development-stages-section-main,
     .our-partners-section-start-main,
     .definition-section-box-main,
-    .company-owners-founder-details-section-box {
+    .company-owners-founder-details-section-box,
+    .stages-og-devlopment-page-hero-section-main,
+    .devlopment-stages-section-start-main {
         padding: 40px 0px;
     }
 
@@ -2085,7 +2347,8 @@
     }
 
     .company-owwner-image-box-left {
-        width: 100%;
+        width: 50%;
+        margin: auto;
     }
 
     .company-owners-dr-box-one {
@@ -2126,6 +2389,117 @@
     }
 
     /* ==== about page end ==== */
+
+    /* ===== stages of devlopment start ==== */
+
+    .stages-of-devlopment-card-one {
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 24px;
+        padding: 30px 0px 30px 48px;
+    }
+
+    .stages-of-devlopment-card-box-contant,
+    .stages-of-devlopment-card-box-image {
+        width: 90%;
+        margin-right: auto;
+    }
+
+    .stages-of-devlopment-card-box-contant h5 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .stages-of-devlopment-card-box-contant p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .stages-og-devlopment-page-hero-section-main h4 {
+        font-size: 32px;
+    }
+
+    .stages-of-devlopment-card-one::before {
+        right: unset;
+        left: 0px;
+    }
+
+    .stages-of-devlopment-card-box-image::before {
+        right: unset;
+        left: -18px;
+        transform: rotate(224deg);
+    }
+
+    .stages-of-devlopment-card-one:nth-child(2) .stages-of-devlopment-card-box-image {
+        order: -1;
+    }
+
+    .stages-of-devlopment-card-one:nth-child(4) .stages-of-devlopment-card-box-image {
+        order: -1;
+    }
+
+    .stages-of-devlopment-card-one:nth-child(6) .stages-of-devlopment-card-box-image {
+        order: -1;
+    }
+
+    .stages-of-devlopment-card-one:nth-child(8) .stages-of-devlopment-card-box-image {
+        order: -1;
+    }
+
+    .stages-of-devlopment-card-box-image::after {
+        position: absolute;
+        content: "";
+        width: 34px;
+        height: 34px;
+        background-image: url(../images/devlpomnt-circle.svg);
+        background-color: white;
+        background-repeat: no-repeat;
+        left: -66px;
+        right: unset;
+        top: 0px;
+        bottom: 0;
+        margin: auto;
+        z-index: 1;
+    }
+
+    .stages-of-devlopment-card-one::after {
+        display: none;
+    }
+
+    .stages-of-devlopment-card-one.last-progress::before {
+        height: 100%;
+    }
+
+    /* ===== stages of devlopment end ==== */
+
+    /* ==== targeted sectors start ==== */
+
+    .hospital-building-image {
+        width: 100%;
+        min-width: 100%;
+        height: auto;
+    }
+
+    .hospital-tital-and-pera h3 {
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+
+    .hospital-tital-and-pera p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .targeted-sectore-banner-contant h1 {
+        font-size: 34px;
+    }
+
+    .hospitals-card-box-main {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    /* ==== targeted sectors end ==== */
 
 }
 
@@ -2278,7 +2652,45 @@
         line-height: 22px;
     }
 
+    .company-owwner-image-box-left {
+        width: 80%;
+        margin: auto;
+    }
+
     /* ==== about page end ==== */
+
+    /* ===== stages of devlopment start ==== */
+
+    .stages-of-devlopment-card-one {
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 24px;
+        padding: 20px 0px 20px 48px;
+    }
+
+    .stages-of-devlopment-card-box-contant,
+    .stages-of-devlopment-card-box-image {
+        width: 100%;
+        margin-right: auto;
+    }
+
+    .stages-of-devlopment-card-box-image {
+        height: 290px;
+    }
+
+    .stages-og-devlopment-page-hero-section-main h4 {
+        font-size: 26px;
+    }
+
+    /* ===== stages of devlopment end ==== */
+
+    /* ==== targeted sectors start ==== */
+
+    .hospitals-card-box-main {
+        padding: 26px 0px;
+    }
+
+    /* ==== targeted sectors end ==== */
 
 }
 
@@ -2360,7 +2772,8 @@
     .our-partners-section-start-main,
     .definition-section-box-main,
     .company-owners-founder-details-section-box,
-    .company-management-section-main {
+    .company-management-section-main,
+    .devlopment-stages-section-start-main {
         padding: 20px 0px;
     }
 
@@ -2513,6 +2926,82 @@
         font-size: 20px;
     }
 
+    .chief-exzecutive-oficer-section-box-main .chief-officer-services-dtls .staff-text-main h4 {
+        text-align: left;
+        font-size: 14px;
+    }
+
     /* ==== about page end ==== */
+
+    /* ===== stages of devlopment start ==== */
+
+    .stages-of-devlopment-card-one {
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 18px;
+        padding: 20px 0px 20px 40px;
+    }
+
+    .stages-of-devlopment-card-box-contant,
+    .stages-of-devlopment-card-box-image {
+        width: 100%;
+        margin-right: auto;
+    }
+
+    .stages-of-devlopment-card-box-image {
+        height: 210px;
+    }
+
+    .stages-og-devlopment-page-hero-section-main h4 {
+        font-size: 24px;
+    }
+
+    .stages-og-devlopment-page-hero-section-main {
+        padding: 30px 0px;
+    }
+
+    .stages-of-devlopment-card-box-image::after {
+        width: 26px;
+        height: 26px;
+        left: -54px;
+    }
+
+    .stages-of-devlopment-card-box-image::before {
+        right: unset;
+        left: -14px;
+        transform: rotate(224deg);
+        width: 24px;
+        height: 24px;
+    }
+
+    .stages-of-devlopment-card-box-image.left-arrow::before {
+        left: -15px;
+        width: 24px;
+        height: 24px;
+    }
+
+    .stages-of-devlopment-card-box-contant p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .stages-of-devlopment-card-box-contant h5 {
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+
+    /* ===== stages of devlopment end ==== */
+
+    /* ==== targeted sectors start ==== */
+
+    .hospitals-card-box-main {
+        padding: 22px 0px;
+    }
+
+    .hospital-building-image img {
+        border-radius: 20px;
+    }
+
+    /* ==== targeted sectors end ==== */
 
 }
